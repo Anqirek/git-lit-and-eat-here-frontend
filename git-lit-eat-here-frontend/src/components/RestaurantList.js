@@ -1,4 +1,3 @@
-RestaurantList 
 import React from 'react'
 import RestaurantCard from './RestaurantCard';
 
@@ -9,7 +8,6 @@ function RestaurantList( {rest} ) {
 
     return (
         <div>
-           <h1>hi</h1> 
            {renderRest} 
         </div>
     )
