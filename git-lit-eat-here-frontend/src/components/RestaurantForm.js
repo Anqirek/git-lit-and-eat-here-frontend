@@ -6,24 +6,47 @@ const initialvalue = {
 }
 
 function RestaurantForm({setRest}) {
-    
+
+    const [rating,setRating] = useState("")
+    const patchURL = `http://localhost:9292/rating/${rating.id}`
     const[NewRests, setNewRests] = useState(initialvalue)
+//  const [username, setUsername] = useState("")
+    const [newPost, setNewPost] = useState("")
+    
+    
     function handleChange(e){
-        setNewRests((currentNewRests) => ({          
+    setNewRests((currentNewRests) => ({          
                 ...currentNewRests,
                 [e.target.name]: e.target.value,
             }))
       
     }
     
-    
+
+    function handleUpdate(e){
+        e.preventDefault()
+        fetch(patchURL, {
+            method: "PATCH",
+            headers: {
+                "Content-Type":"application/json",
+            },
+            body: JSON.stringify({
+                rating: rating 
+            }),
+        })
+        .then(res => res.json())
+        .then((updatedRating) => setRating(updatedRating))
+    }
+
     function handleSubmit(e){
+        e.preventDefault()
+       
         e.preventDefault()
         const rest ={
             name: NewRests.name ,
             cuisine: NewRests.cuisine
         }
-        fetch('http://localhost:3000/restaurants', {
+        fetch('http://localhost:9292/restaurants', {
             method: "POST",
             headers:{
                 "Content-Type":'application/json'
@@ -33,7 +56,6 @@ function RestaurantForm({setRest}) {
             .then(data => setRest(currentNewRest => [...currentNewRest, data])
         )
        }
-    
 
 
 
