@@ -1,18 +1,15 @@
 import React, {useState} from 'react'
+import styled from 'styled-components'
 
 const initialvalue = {
     name: "",
     cuisine: "",
 }
 
-function RestaurantForm({setRest}) {
+function RestaurantForm() {
 
-    const [rating,setRating] = useState("")
-    const[NewRests, setNewRests] = useState(initialvalue)
-  
    
-    
-    const patchURL = `http://localhost:9292/rating/${rating.id}`
+    const[NewRests, setNewRests] = useState(initialvalue)
     
     
     
@@ -24,28 +21,13 @@ function RestaurantForm({setRest}) {
       
     }
 
-
-
-    function handleNewUpdate(e){
-        e.preventDefault()
-        fetch(patchURL, {
-            method: "PATCH",
-            headers: {
-                "Content-Type":"application/json",
-            },
-            body: JSON.stringify({
-                rating: rating 
-            }),
-        })
-        .then(res => res.json())
-        .then((updatedRating) => setRating(updatedRating))
-    }
+ 
 
     function handleSubmit(e){
-        e.preventDefault()
+      
        
         e.preventDefault()
-        const rest ={
+        const rest = {
             name: NewRests.name ,
             cuisine: NewRests.cuisine
         }
@@ -56,7 +38,7 @@ function RestaurantForm({setRest}) {
             },
             body: JSON.stringify(rest)
         }).then(resp => resp.json())
-            .then(data => setRest(currentNewRest => [...currentNewRest, data])
+            .then(data => setNewRests(data)
         )
        }
 
@@ -67,7 +49,7 @@ function RestaurantForm({setRest}) {
 
     return (
         
-        <form classname="new" onSubmit={handleSubmit}>
+        <form action = "/" method= "post" classname="new" onSubmit={handleSubmit}>
             <input classname = "name" type = 'text' name ="name" placeholder = "Restaurant Name" value = {NewRests.name} onChange = {handleChange} />
             <input classname = "cuisine" type = 'text' name ="cuisine" placeholder = "Cuisine" value = {NewRests.cuisine} onChange = {handleChange}/>
             <button className = "submit" >Add Restaurant</button>
@@ -79,3 +61,40 @@ function RestaurantForm({setRest}) {
 }
 
 export default RestaurantForm
+
+const StyleForm = styled.div`
+        #new{
+            display:flex;
+            justify-content:space-evenly
+            
+        }
+        #name{
+            box-sizing: border-box;
+            padding:4px;
+        }
+
+        input[type=text]:focus {
+        background: #feffdf
+    }
+    
+    input[type=text] {
+  
+  -webkit-appearance: none;
+    appearance: none;
+    }
+
+    #submit{
+        box-sizing: border-box;
+        padding:10px;
+        float:left;
+        border: 2px solid  black;
+        border-radius:10px;
+        background-color:white;
+    }
+
+    #submit:hover{
+        background:gray;
+        }
+
+
+`

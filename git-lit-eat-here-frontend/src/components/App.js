@@ -3,7 +3,6 @@ import RestaurantPage from "./RestaurantPage"
 import { Switch, Route } from 'react-router-dom';
 import RestaurantForm from './RestaurantForm';
 import NavBar from './Navbar';
-import NewPost from './NewPost'
 
 function App() {
   return (
@@ -16,9 +15,7 @@ function App() {
     <Route exact path = "/">
       <RestaurantPage/>
       </Route>
-      <Route path = "/new_post">
-      <NewPost/>
-      </Route>
+    
       </Switch>
     </div>
   );

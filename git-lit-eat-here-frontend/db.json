@@ -1,119 +1,19 @@
 {
-  "restaurants": [
+  "posts": [
     {
       "id": 1,
-      "name": "Din Tai Fung",
-      "review": "This place changed my life. I just cannot believe how good it is! I will visit LA -or to the West Coast- just to eat here! The wait is worth it, just be patient. The restaurant is beautiful, perfect for the place where is located. You'll see the kitchen behind the glass and witness how everything is beautifully hand made. I don't have enough words to tell you how good the food was, I am still so amazed. For an app my friend and I started with the cucumber salad. This may sound simple, but that's the key here. It was so refreshing and perfect to start this amazing meal off. Most of the dishes are meant to be shared, and that's what we did. My favorite was the noodles on spicy sauce; so in the point, flavor balanced and so filling. We followed with the pork chop rice which as out of this world, some dumplings (yuuuum) and garnished with some green beans. We ended up asking for some sweet and sour ribs, which... just order them, I cannot praise them enough. All of these while drinking a delicious yuzu margarita!",
-      "cuisine": "Taiwanese"
-    },
-    {
-      "id": 2,
-      "name": "E.A.K Ramen",
-      "review": "Down to earth no fuss ramen joint. Quite unique that may be hard to replicate elsewhere. Stopped by a little after lunch and was quickly seated. Ordered the spicy miso ramen and takoyaki . The takoyaki has all the same components as it's traditional counterparts but it seems like this establishment chose to deep fried it or at least it tasted like they did. It was good, just different. Good part is it held its texture but tenderness was lost. The ramen, on first sampling of the soup was satisfying. The broth is thick but still sippable, hearty, full of body, and the added spicyness. I'd say it's a 4.5. The chasu topping was melt in your mouth and absorbent of the broth. The noodles, thicker than your traditional ramen noodles, most closely resembles what you get in a tsukumen. It had great texture for chewing and will no doubt fill you up.",
-      "cuisine": "Japanese"
-    },
-    {
-      "id": 3,
-      "name": "DunHuang Lanzhou Beef Noodle",
-      "review": "Oh My! What a find!  While in flushing this past sunday,  I was in the mood for some warm you'r belly soup, so I took a chance on this place.. like I said; Oh My! I ordered Combo: beef noodle soup with pickled cabbage and marinated egg.  You can have it served separately but I opted to throw it all into one bowl and again Oh My! From the aroma that quickly grabbed and kept my attention until the first bite.  It was Dee Lee Cious and one of the most perfect soups I've had since my mom's.  My grandson tried this soup and even he, whose a picky eater, enjoyed it. I can see myself traveling from long island to flushing again just to reward my palate. Thank you Dunhuang for a wonderful meal.",
-      "cuisine": "Chinese"
-    },
-    {
-      "id": 4,
-      "name": "Lilia Italian Restaurant",
-      "review": "One of the best places I've been to for pasta in NY.  Although we sat outside due to the packed seating inside, they gave us blankets to wrap ourselves around.  The ramp butter for the focaccia was delicious and green!  The grilled clams were also very good.  The malfaldini (my first time trying it) is to die for.  Make sure to order the Italian Job for dessert - this is soft serve topped with olive oil, fennel and sea salt, absolutely a must try and scrumptious!  This is one place in NY that I will remember for a lifetime as being one of my favorite places for Italian food, namely pasta!  Would return because the food is delicious!",
-      "cuisine": "Italian"
-    },
-    {
-      "id": 5,
-      "name": "The Front Porch",
-      "review": "If you are on the hunt for perfect fried chicken, look no more. The Front Porch has some of the best soul food and fried chicken buckets I have ever tried.The shrimp and grits was insanely good, incredibly buttery and did not have a grainy texture. The shrimps and sauce were a perfect compliment to the whipped buttery grits as they were spicy and had a gumbo curry rich flavor to them.The fried chicken was juicy, and tender while being crispy on the outside. I also highly recommend asking for their hot sauces and maple syrup on the side. When combined atop the already juicy fried chicken it resembles a spicy chicken and waffles flavor and is an absolute must try if you are the kind of person that likes mixing sweet and savory.",
-      "cuisine": "Southern"
-    },
-    {
-      "id": 6,
-      "name": "COTE Korean Steakhouse",
-      "review": "If I could give this place a 10 I would. This is the most amazing restaurant I've ever been in. Everything is just about perfect the drinks the food, the service the ambience, an amazing amazing place. The staff is an impressive lot of expert & friendly people anticipating you ever need. The meat is so delicious like nothing you have ever eaten. The caviar was an experience but cannot be matched. It wasn't anything that I tasted that wasn't superior to anything else I've ever had. It isn't a cheap restaurant but then again you get what you pay for and to go there is an experience that you won't forget.",
-      "cuisine": "Korean"
-    },
-    {
-      "id": 7,
-      "name": "Hai Di Lao Hot Pot",
-      "review": "Wow I've heard amazing things about HaiDiLao and they certainly lived up to the hype. If you want dinner and a show, this is the place to go to. Cue the dancing noodle stunna and the face changing magic man who even gives out lollipops!! Service was respectful and attentive to me and my friend. They gave us a free hair tie because they noticed we didn't have one! Like seriously who does that; I'm still wearing it to this day because its a damn good hair tie.",
-      "cuisine": "Chinese"
-    },
-    {
-      "id": 8,
-      "name": "Burma Love",
-      "review": "TEA LEAF SALAD!!  If you take nothing from this review tea leaf salad! Actually maybe that's a lie because all the food was wonderful, but anyway legit this place is truly fantastic. Oh my word the food, the service! Divine!! We were seated promptly on a busy Saturday. All the servers that came to our table were incredibly kind and their warmth honestly made the experience feel really welcoming.",
-      "cuisine": "Burmese"
-    },
-    {
-      "id": 9,
-      "name": "La Taqueria",
-      "review": "Where do you eat when you only have 24 hrs in San Francisco?!  La Taqueria! Our group of 4 ordered: Carnitas Burrito dorado style (crispy), Crispy Carnitas, Supreme (guacamole & sour cream), Carne Asada Burrito, Crispy Lengua Supreme taco. All of us loved our food. My husband loved his carnitas burrito but I think my Crispy Carnitas Supreme taco was the best.",
-      "cuisine": "Mexican"
-    },
-    {
-      "id": 10,
-      "name": "Tabare Bushwick",
-      "review": "Absolutely INCREDIBLE!! Everything from the decor, the food, the service, was really wonderful. The menu shares their story and the history of Uruguayan cuisine, and the restaurant's commitment to using local and fresh ingredients. The decor is so cozy and sexy and felt like a great spot for a date night or dinner with the girls. I started with the Zorro cocktail which was the perfect blend of refreshing, spicy, and smoky. We shared some empanadas, which were warm and so savory. And of course, we had to try the octopus! It was unique and served with lima beans, I would definitely order again. And then all three of us had to try the churrasco. IT WAS OUT OF THIS WORLD. The steak was perfectly marinated and cooked. Everything you want out of a great flank steak. The duck fat potatoes-- omg, need I say more?? And it also comes with a little vinagrette salad, which was a great bite of acid to cut through all the fat.  Throughout the meal various waiters stopped over to check on us, get us more drinks, and make sure out table was cleared in a timely manner. Everyone was kind. I will definitely be back!",
-      "cuisine": "Uruguayan"
-    },
-    {
-      "id": 11,
-      "name": "Tadu Ethiopian Kitchen",
-      "review": "I frequent and love this place! I appreciate that it delivers consistent quality of food, provides plenty of injera, and that the injera is of my desired thickness (usually it's too thin for me at some other places) I particularly love the gomen and have ordered it on its own, but my go to is the vegetarian combo. I've also ordered delivery a couple times and have been pleasantly surprised, because their delivery orders don't skimp out on the soft, flavor soaked injera underneath. I totally think Tadu is a deal because it usually lasts me a couple or few meals and is some of the tastiest Ethiopian food I've had. I highly recommend this spot for anyone ordering Ethiopian!",
-      "cuisine": "Ethiopian"
-    },
-    {
-      "id": 12,
-      "name": "Huong Lan Sandwiches",
-      "review": "Probably some of the best banh mi sandwiches I've had! What I love about their sandwiches is that their bread is soft (doesn't cut up the roof of your mouth when you eat it) yet still has that nice crackle (cue Ratatouille scene). They also give a good portion of meat and veggies, making the sandwich very flavorful and satisfying. The meat is also high quality - mostly lean meat and not fatty like other places can be. That means you can eat it all!",
-      "cuisine": "Vietnamese"
-    },
-    {
-      "id": 13,
-      "name": "Hog Island Oyster Co.",
-      "review": "I had the best experience with the staff, food, and environment. The restaurant overlooks the water so it's a perfect date night. The food was incredible- our serve recommended mixing and matching the raw oysters so I had a few different options per size. The staff was very knowledgeable and I trusted their recommendations. Aside from the raw oysters, i also had grilled oysters. I mixed these as well and got one of each - so bomb! All so tasty and different, a must try!",
-      "cuisine": "Seafood"
-    },
-    {
-      "id": 14,
-      "name": "Daeho Kalbijim & Beef Soup",
-      "review": "DAMN GOOD I almost cried :') we were reccomended Braised Beef Rib and added cheese, rice cake, and glass noodles. They have you order it before being seated just because it takes so long, but once we sat down and got our sides, the food didnt take too long after. The beef was so tender it fell off the bone and was infused with that sweet umami sauce. It basically melted in my mouth. And don't forget to add cheese it's super messy but messy is usually tastier!",
-      "cuisine": "Korean"
-    },
-    {
-      "id": 14,
-      "name": "Kokkari Estiatorio",
-      "review": "My husband and I decided to try something new for our anniversary dinner. Kokkari Estiatoria did not disappoint. We ordered so much food. We hardly touched our main entree just to leave space for dessert. The food was not only excellent, but the service was fantastic. The servers were willing to assist no matter who you asked.",
-      "cuisine": "Greek"
-    },
-    {
-      "name": "Taco Truck",
-      "cuisine": "mexican",
-      "id": 15
-    },
-    {
-      "name": "sdfgdsf",
-      "cuisine": "sdfgdsfg",
-      "id": 16
-    },
-    {
-      "name": "fsafdsaf",
-      "cuisine": "asdfsdf",
-      "id": 17
-    },
-    {
-      "name": "hi ",
-      "cuisine": "hi",
-      "id": 18
-    },
-    {
-      "name": "asdfsad",
-      "cuisine": "asdfasdfsffff",
-      "id": 19
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
