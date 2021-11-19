@@ -48,15 +48,14 @@ function RestaurantForm() {
 
 
     return (
-        
-        <form action = "/" method= "post" classname="new" onSubmit={handleSubmit}>
-            <input classname = "name" type = 'text' name ="name" placeholder = "Restaurant Name" value = {NewRests.name} onChange = {handleChange} />
-            <input classname = "cuisine" type = 'text' name ="cuisine" placeholder = "Cuisine" value = {NewRests.cuisine} onChange = {handleChange}/>
-            <button className = "submit" >Add Restaurant</button>
+       <StyleForm>
+        <form id = "new" action = "/" method= "post" onSubmit={handleSubmit}>
+            <input  type = 'text' name ="name" placeholder = "Restaurant Name" value = {NewRests.name} onChange = {handleChange} />
+            <input type = 'text' name ="cuisine" placeholder = "Cuisine" value = {NewRests.cuisine} onChange = {handleChange}/>
+            <button id = "submit" action = "/">Add Restaurant</button>
 
         </form>
-
-       
+        </StyleForm>
     )
 }
 

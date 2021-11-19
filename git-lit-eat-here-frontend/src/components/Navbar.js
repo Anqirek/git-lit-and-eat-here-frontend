@@ -11,7 +11,7 @@ function NavBar(){
                 Food
             </NavLink>
             <NavLink to = "/RestaurantForm">
-                Add New food
+                Add New Food!
             </NavLink>
             </StyleNav>
 
