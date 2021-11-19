@@ -8,10 +8,12 @@ const initialvalue = {
 function RestaurantForm({setRest}) {
 
     const [rating,setRating] = useState("")
-    const patchURL = `http://localhost:9292/rating/${rating.id}`
     const[NewRests, setNewRests] = useState(initialvalue)
-//  const [username, setUsername] = useState("")
-    const [newPost, setNewPost] = useState("")
+  
+   
+    
+    const patchURL = `http://localhost:9292/rating/${rating.id}`
+    
     
     
     function handleChange(e){
@@ -21,9 +23,10 @@ function RestaurantForm({setRest}) {
             }))
       
     }
-    
 
-    function handleUpdate(e){
+
+
+    function handleNewUpdate(e){
         e.preventDefault()
         fetch(patchURL, {
             method: "PATCH",
@@ -63,11 +66,15 @@ function RestaurantForm({setRest}) {
 
 
     return (
+        
         <form classname="new" onSubmit={handleSubmit}>
             <input classname = "name" type = 'text' name ="name" placeholder = "Restaurant Name" value = {NewRests.name} onChange = {handleChange} />
             <input classname = "cuisine" type = 'text' name ="cuisine" placeholder = "Cuisine" value = {NewRests.cuisine} onChange = {handleChange}/>
             <button className = "submit" >Add Restaurant</button>
+
         </form>
+
+       
     )
 }
 
