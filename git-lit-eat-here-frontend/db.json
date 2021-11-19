@@ -89,31 +89,7 @@
       "name": "Kokkari Estiatorio",
       "review": "My husband and I decided to try something new for our anniversary dinner. Kokkari Estiatoria did not disappoint. We ordered so much food. We hardly touched our main entree just to leave space for dessert. The food was not only excellent, but the service was fantastic. The servers were willing to assist no matter who you asked.",
       "cuisine": "Greek"
-    },
-    {
-      "name": "Taco Truck",
-      "cuisine": "mexican",
-      "id": 15
-    },
-    {
-      "name": "sdfgdsf",
-      "cuisine": "sdfgdsfg",
-      "id": 16
-    },
-    {
-      "name": "fsafdsaf",
-      "cuisine": "asdfsdf",
-      "id": 17
-    },
-    {
-      "name": "hi ",
-      "cuisine": "hi",
-      "id": 18
-    },
-    {
-      "name": "asdfsad",
-      "cuisine": "asdfasdfsffff",
-      "id": 19
     }
+   
   ]
 }

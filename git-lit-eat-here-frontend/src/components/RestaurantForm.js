@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import styled from 'styled-components';
 
 const initialvalue = {
     name: "",
@@ -41,12 +42,51 @@ function RestaurantForm({setRest}) {
 
 
     return (
-        <form classname="new" onSubmit={handleSubmit}>
-            <input classname = "name" type = 'text' name ="name" placeholder = "Restaurant Name" value = {NewRests.name} onChange = {handleChange} />
-            <input classname = "cuisine" type = 'text' name ="cuisine" placeholder = "Cuisine" value = {NewRests.cuisine} onChange = {handleChange}/>
-            <button className = "submit" >Add Restaurant</button>
+        <StyleForm>
+        <form id="new" onSubmit={handleSubmit}>
+            <input id="name" type = 'text' name ="name" placeholder = "Restaurant Name" value = {NewRests.name} onChange = {handleChange} />
+            <input id= "cuisine" type = 'text' name ="cuisine" placeholder = "Cuisine" value = {NewRests.cuisine} onChange = {handleChange}/>
+            <button id = "submit" >Add Restaurant</button>
         </form>
+        </StyleForm>
     )
 }
 
 export default RestaurantForm
+
+const StyleForm = styled.div`
+        #new{
+            display:flex;
+            justify-content:space-evenly
+            
+        }
+        #name{
+            box-sizing: border-box;
+            padding:4px;
+        }
+
+        input[type=text]:focus {
+        background: #feffdf
+    }
+    
+    input[type=text] {
+  
+  -webkit-appearance: none;
+    appearance: none;
+    }
+
+    #submit{
+        box-sizing: border-box;
+        padding:10px;
+        float:left;
+        border: 2px solid  black;
+        border-radius:10px;
+        background-color:white;
+    }
+
+    #submit:hover{
+        background:gray;
+        }
+
+
+`

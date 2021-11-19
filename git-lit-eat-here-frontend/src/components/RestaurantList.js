@@ -1,5 +1,7 @@
 import React from 'react'
 import RestaurantCard from './RestaurantCard';
+import { Card } from "semantic-ui-react";
+
 
 function RestaurantList( {rest} ) {
     
@@ -7,10 +9,14 @@ function RestaurantList( {rest} ) {
 
 
     return (
-        <div>
+
+            <Card.Group itemsPerRow={6}>
            {renderRest} 
-        </div>
+           </Card.Group>
+    
     )
 }
 
 export default RestaurantList
+
+

@@ -1,7 +1,7 @@
 
 import React, {useState, useEffect} from "react";
 import RestaurantList from "./RestaurantList";
-import RestaurantForm from "./RestaurantForm";
+
 
 
 const url = 'http://localhost:3000/restaurants'
@@ -18,8 +18,7 @@ function RestaurantPage(){
     }
 
     return(
-    <div>
-        <RestaurantForm setRest = {setRest}/>
+    <div>       
         <RestaurantList rest = {rest}/>       
     </div>
 )
